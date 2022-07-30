@@ -11,9 +11,9 @@ const Home = () => {
         <h2>Hi. My Name is Dinova</h2>
         <div className="prompt">
           <p>Web Developer with a passion for learning by doing</p>
-          <EmailIcon />
-          <LinkedInIcon />
-          <GitHubIcon />
+          <EmailIcon onClick={() => window.open("mailto:dinovaprogram@gmail.com")} />
+          <LinkedInIcon onClick={() => window.open("https://www.linkedin.com/in/dinova-widytianto/")} />
+          <GitHubIcon onClick={() => window.open("https://github.com/dinovawidy")} />
         </div>
       </div>
       <div className="skills">
@@ -21,7 +21,7 @@ const Home = () => {
         <ol className="list">
           <li className="item">
             <h2>Front End</h2>
-            <span>HTML, CSS3, SaaS, NPM, BootStrap, Yarn</span>
+            <span>HTML, CSS3, Sass, NPM, BootStrap, Yarn</span>
           </li>
           <li className="item">
             <h2>Back-End</h2>

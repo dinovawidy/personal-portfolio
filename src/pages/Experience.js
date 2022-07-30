@@ -61,7 +61,7 @@ const Experience = () => {
           <h4 className="vertical-timeline-element-subtitle">
           Surabaya, Indonesia
           </h4>
-          <p> adbashjdbahjdbahb </p>
+          <p> Perform ongoing keyword discovery, expansion and optimization to show on page one SERP</p>
         </VerticalTimelineElement>
       </VerticalTimeline>
     </div>

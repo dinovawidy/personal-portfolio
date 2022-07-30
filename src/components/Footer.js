@@ -9,12 +9,12 @@ const Footer = () => {
   return (
     <div className="footer">
       <div className="socialMedia">
-        <InstagramIcon />
-        <GitHubIcon />
-        <FacebookIcon />
-        <LinkedInIcon />
+        <InstagramIcon onClick={() => window.open("https://www.instagram.com/dinovawidy/")} />
+        <GitHubIcon onClick={() => window.open("https://github.com/dinovawidy")} />
+        <FacebookIcon onClick={() => window.open("https://www.facebook.com/dino.dasilva.35/")} />
+        <LinkedInIcon onClick={() => window.open("https://www.linkedin.com/in/dinova-widytianto/")} />
       </div>
-      <p>&copy; 2022 dinovaw</p>
+      <p onClick={() => window.open("https://dinovaw.my.id/")}>&copy; 2022 Dinova Widytianto  </p>
     </div>
   );
 };
