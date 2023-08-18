@@ -21,7 +21,7 @@ const Home = () => {
         <ol className="list">
           <li className="item">
             <h2>Front End</h2>
-            <span>HTML, CSS3, Sass, NPM, BootStrap, Yarn</span>
+            <span>HTML, CSS3, React.JS, Sass, NPM, BootStrap, Tailwind CSS, Material UI, Yarn</span>
           </li>
           <li className="item">
             <h2>Back-End</h2>

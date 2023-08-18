@@ -63,6 +63,21 @@ const Experience = () => {
           </h4>
           <p> Perform ongoing keyword discovery, expansion and optimization to show on page one SERP</p>
         </VerticalTimelineElement>
+        <VerticalTimelineElement
+          className="vertical-timeline-element--work"
+          date="2023"
+          iconStyle={{ background: "#e9d35b", color: "#fff" }}
+          icon={<WorkIcon />}
+        >
+          <h3 className="vertical-timeline-element-title">
+          FrontEnd Developer - Digital Center Surabaya
+          </h3>
+          <h4 className="vertical-timeline-element-subtitle">
+          Surabaya, Indonesia
+          </h4>
+          <p> Build comprehensive E-Commerce platform that connects both merchants
+and customers in the gold trading industry.</p>
+        </VerticalTimelineElement>
       </VerticalTimeline>
     </div>
   );
