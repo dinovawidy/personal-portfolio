@@ -10,7 +10,7 @@ const Home = () => {
       <div className="about">
         <h2>Hi. My Name is Dinova</h2>
         <div className="prompt">
-          <p>Web Developer with a passion for learning by doing</p>
+          <p>Web Developer with a passion for FrontEnd </p>
           <EmailIcon onClick={() => window.open("mailto:dinovaprogram@gmail.com")} />
           <LinkedInIcon onClick={() => window.open("https://www.linkedin.com/in/dinova-widytianto/")} />
           <GitHubIcon onClick={() => window.open("https://github.com/dinovawidy")} />
