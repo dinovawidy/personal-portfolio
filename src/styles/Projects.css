@@ -13,15 +13,25 @@
     font-weight: bolder;
 }
 .projectList {
-    width: 70vw;
+  /* width: 70vw; */
     height: auto;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     place-items: center;
+    margin-bottom: 50px;
+    text-decoration: none;
+}
+
+.item{
+  text-decoration: none;
 }
 
 /* MENU ITEM STYLING */
 
+.link {
+  text-decoration: none;
+  color: black;
+}
 .projectItem {
     border-radius: 15px;
     width: 300px;
@@ -44,6 +54,7 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    object-fit: contain;
   }
   
   .projectItem h1 {

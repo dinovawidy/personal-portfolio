@@ -8,9 +8,12 @@ const Home = () => {
   return (
     <div className="home">
       <div className="about">
-        <h2>Hi. My Name is Dinova</h2>
+        <h2>👋 Hi there! I'm Dinova</h2>
         <div className="prompt">
-          <p>Web Developer with a passion for FrontEnd </p>
+          <p><span>💻</span> A passionate Frontend Web Developer with over 1-2 years of hands-on experience. I thrive on creating immersive user experiences using technologies like JavaScript, React.js, Tailwind CSS, Axios, and more.
+          🚀 My journey in web development has been both exciting and challenging. I take pride in translating ideas into visually stunning and user-friendly interfaces. My commitment to staying on top of industry trends allows me to bring fresh perspectives to every project.
+        💡 What sets me apart is not just my technical skills but also my dedication to sustainability in frontend development. I believe in building projects that stand the test of time, providing users with seamless interactions.
+        🌐 Currently open to new opportunities and collaborations. Let's connect and explore the possibilities!</p>
           <EmailIcon onClick={() => window.open("mailto:dinovaprogram@gmail.com")} />
           <LinkedInIcon onClick={() => window.open("https://www.linkedin.com/in/dinova-widytianto/")} />
           <GitHubIcon onClick={() => window.open("https://github.com/dinovawidy")} />
@@ -31,7 +34,10 @@ const Home = () => {
             <h2>Languages</h2>
             <span>JavaScript, Java, C++, Php</span>
           </li>
-        <iframe width='610px' height='490px' src='https://crm.zoho.com/crm/WebFormServeServlet?rid=852bfe8b59f31c5c2ad28655774d93b3ecd098787d1f0781a7fd9ddc78ff0117gid55062cc3b902f6a566f593fa176a2f0d9c31453f063afafa6425fd48eeac751d'></iframe>
+          {/* 
+        <iframe width='610px' height='490px' src='https://crm.zoho.com/crm/WebFormServeServlet?rid=852bfe8b59f31c5c2ad28655774d93b3ecd098787d1f0781a7fd9ddc78ff0117gid55062cc3b902f6a566f593fa176a2f0d9c31453f063afafa6425fd48eeac751d'></iframe>  
+          */}
+
         </ol>
       </div>
     </div>
