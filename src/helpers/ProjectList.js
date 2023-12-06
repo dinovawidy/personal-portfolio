@@ -4,6 +4,11 @@ import TE1 from "../assets/tanam-emas/tanam-emas1.png"
 import TE2 from "../assets/tanam-emas/tanam-emas2.png"
 import TE3 from "../assets/tanam-emas/tanam-emas3.png"
 import TE4 from "../assets/tanam-emas/tanam-emas4.png"
+import VB1 from "../assets/vision-bali/visionbali1.png"
+import VB2 from "../assets/vision-bali/visionbali2.png"
+import VB3 from "../assets/vision-bali/visionbali3.png"
+import VB4 from "../assets/vision-bali/visionbali4.png"
+ 
 
 export const ProjectList = [
     {
@@ -34,6 +39,16 @@ export const ProjectList = [
         image2: TE2,
         image3: TE3,
         image4: TE4,
+        skills: "ReactJs, Redux, Axios, Tailwind CSS"
+    },
+    {
+        id: "f1b8bf12-baeb-42af-915f-f5aea98b79d4",
+        slug: "vision-bali-property",
+        name: "Vision Bali Property",
+        image1: VB1,
+        image2: VB2,
+        image3: VB3,
+        image4: VB4,
         skills: "ReactJs, Redux, Axios, Tailwind CSS"
     },
 

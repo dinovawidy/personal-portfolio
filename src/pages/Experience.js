@@ -12,7 +12,9 @@ const Experience = () => {
   return (
     <div className="experience">
       <VerticalTimeline lineColor="#010003">
-        <VerticalTimelineElement
+        
+          {/* 
+          <VerticalTimelineElement
           className="vertical-timeline-element--education"
           date="2014 - 2017"
           iconStyle={{ background: "#3e497a", color: "#fff" }}
@@ -23,6 +25,7 @@ const Experience = () => {
           </h3>
           <p> High School Diploma</p>
         </VerticalTimelineElement>
+          */}
         <VerticalTimelineElement
           className="vertical-timeline-element--education"
           date="2017 - 2022"

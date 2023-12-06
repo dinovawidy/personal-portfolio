@@ -14,7 +14,7 @@ const Footer = () => {
         <FacebookIcon onClick={() => window.open("https://www.facebook.com/dino.dasilva.35/")} />
         <LinkedInIcon onClick={() => window.open("https://www.linkedin.com/in/dinova-widytianto/")} />
       </div>
-      <p onClick={() => window.open("https://dinovaw.my.id/")}>&copy; 2022 Dinova Widytianto  </p>
+      <p onClick={() => window.open("https://dinovaw.tech/")}>&copy; 2023 Dinova Widytianto  </p>
     </div>
   );
 };
