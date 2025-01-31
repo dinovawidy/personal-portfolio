@@ -10,7 +10,7 @@ const Home = () => {
       <div className="about">
         <h2>👋 Hi there! I'm Dinova</h2>
         <div className="prompt">
-          <p><span>💻</span> A passionate Frontend Web Developer with over 1-2 years of hands-on experience. I thrive on creating immersive user experiences using technologies like JavaScript, React.js, Tailwind CSS, Axios, and more.
+          <p><span>💻</span> A passionate Frontend Web Developer with over 3 years of hands-on experience. I thrive on creating immersive user experiences using technologies like JavaScript, React.js, Tailwind CSS, Axios, and more.
           🚀 My journey in web development has been both exciting and challenging. I take pride in translating ideas into visually stunning and user-friendly interfaces. I believe in building projects that stand the test of time, providing users with seamless interactions.
         🌐 Currently open to new opportunities and collaborations. Let's connect and explore the possibilities!</p>
           <EmailIcon onClick={() => window.open("mailto:dinovaprogram@gmail.com")} />
