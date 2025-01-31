@@ -26,10 +26,6 @@ const Home = () => {
             <span>HTML, CSS3, React.JS, Sass, NPM, BootStrap, Tailwind CSS, Material UI, Yarn</span>
           </li>
           <li className="item">
-            <h2>Back-End</h2>
-            <span>NodeJs, ExpressJS, Code Igniter, MySQL, MongoDB</span>
-          </li>
-          <li className="item">
             <h2>Languages</h2>
             <span>JavaScript, Java, C++, Php</span>
           </li>
